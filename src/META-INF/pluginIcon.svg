@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="so-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141927"/>
+      <stop offset="1" stop-color="#0A0D16"/>
+    </linearGradient>
+    <linearGradient id="so-frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="36" height="36" rx="9" fill="url(#so-bg)" stroke="url(#so-frame)" stroke-width="1.5"/>
+  <rect x="6.5" y="6.5" width="18.5" height="18.5" rx="4.5" fill="#1A2030" stroke="#8B5CF6" stroke-width="1.2"/>
+  <rect x="9.5" y="10.5" width="6.5" height="2" rx="1" fill="#C4B5FD"/>
+  <rect x="9.5" y="14.5" width="10.5" height="2" rx="1" fill="#5EEAD4"/>
+  <rect x="11.5" y="18.5" width="8.5" height="2" rx="1" fill="#B9E57A"/>
+  <rect x="15" y="15" width="18.5" height="18.5" rx="4.5" fill="#FAF6EE" stroke="#2563EB" stroke-width="1.2"/>
+  <rect x="18" y="19" width="6.5" height="2" rx="1" fill="#6D28D9"/>
+  <rect x="18" y="23" width="10.5" height="2" rx="1" fill="#1D4ED8"/>
+  <rect x="20" y="27" width="8.5" height="2" rx="1" fill="#15803D"/>
+</svg>

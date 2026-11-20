@@ -1,0 +1,28 @@
+<idea-plugin require-restart="true">
+  <id>com.saffetoge.sotheme</id>
+  <name>SOTheme</name>
+  <version>1.2.0</version>
+  <vendor url="https://github.com/saffetoge" email="saffetoge@gmail.com">saffetoge</vendor>
+  <description><![CDATA[
+    <p>Dark and light Islands UI themes with syntax color schemes for PHP, Blade, HTML, CSS, and JavaScript.</p>
+    <ul>
+      <li><b>SOTheme Dark</b>: deep navy workspace with violet accents, balanced contrast, and tailored terminal colors.</li>
+      <li><b>SOTheme Light</b>: warm cream workspace with high-contrast dark text and readable terminal ANSI colors.</li>
+    </ul>
+    <p>Built on top of the Islands UI architecture (<code>Islands Dark</code> and <code>Islands Light</code>) for clean visual hierarchy across editor tabs, tool windows, diffs, and the block terminal.</p>
+    <p><b>Türkçe:</b> Islands arayüzü üzerine kurulu SOTheme Dark (lacivert zemin, mor vurgu) ve SOTheme Light (sıcak krem zemin, yüksek kontrast) tema ailesi; PHP, Blade, HTML, CSS ve terminal için özel renk şemaları içerir.</p>
+  ]]></description>
+  <change-notes><![CDATA[
+    <ul>
+      <li><b>1.2.0</b>: Switched to native <code>Islands Dark</code> and <code>Islands Light</code> parent theme inheritance for full compatibility with 2026.2 and 2026.3+ IDEs.</li>
+      <li>Added <code>require-restart="true"</code> to prevent dynamic theme unload class loader leaks (IJPL-261778).</li>
+      <li>Updated plugin icon, English description, and Marketplace metadata.</li>
+    </ul>
+  ]]></change-notes>
+  <idea-version since-build="262"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.saffetoge.sotheme.dark" path="/themes/SOTheme_Dark.theme.json"/>
+    <themeProvider id="com.saffetoge.sotheme.light" path="/themes/SOTheme_Light.theme.json"/>
+  </extensions>
+</idea-plugin>

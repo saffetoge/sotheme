@@ -1,0 +1,82 @@
+{
+  "name": "SOTheme Dark",
+  "dark": true,
+  "author": "saffetoge",
+  "parentTheme": "Islands Dark",
+  "editorScheme": "/themes/SOTheme_Dark.xml",
+  "colors": {
+    "gray-160": "#F5F7FA",
+    "gray-150": "#E8ECF3",
+    "gray-140": "#DBE0EA",
+    "gray-130": "#CBD1DF",
+    "gray-120": "#B8BFD0",
+    "gray-110": "#A3ABBE",
+    "gray-100": "#8C95AA",
+    "gray-90": "#757E93",
+    "gray-80": "#5E677C",
+    "gray-70": "#4A5367",
+    "gray-60": "#384154",
+    "gray-50": "#2B3345",
+    "gray-40": "#222939",
+    "gray-30": "#1A2030",
+    "gray-20": "#141927",
+    "gray-10": "#0F1320",
+    "blue-160": "#F5F8FF",
+    "blue-150": "#E8EFFF",
+    "blue-140": "#D8E3FF",
+    "blue-130": "#C4D5FE",
+    "blue-120": "#AAC3FC",
+    "blue-110": "#8EAFFA",
+    "blue-100": "#6E97F5",
+    "blue-90": "#5680E6",
+    "blue-80": "#3F68C9",
+    "blue-70": "#3457A8",
+    "blue-60": "#2A4789",
+    "blue-50": "#223A70",
+    "blue-40": "#1C2F5C",
+    "blue-30": "#17274C",
+    "blue-20": "#13203F",
+    "blue-10": "#101A33",
+    "transparent": "#0F132000",
+    "editor-text": "#D6DCEB",
+    "main-window-bg": "#0A0D16",
+    "accent-brand-bg": "#8B5CF6",
+    "accent-brand-border": "#8B5CF6",
+    "accent-brand-bg-secondary": "#2A2152",
+    "accent-brand-border-secondary": "#4C3A91",
+    "selection-bg-active": "#1E2C52",
+    "selection-bg-active-muted": "#18223F",
+    "toolbar-selected-bg": "#3B2D78",
+    "toolbar-selected-bg-hovered": "#47378F",
+    "tab-selected-bg-active": "#1A2238",
+    "tab-selected-border-active": "#8B5CF6",
+    "tab-file-color-mask-bg": "#0F132080",
+    "got-it-bg": "#3B2D78",
+    "got-it-border": "#3B2D78",
+    "presentation-assistant-bg": "#3B2D78",
+    "popup-completion-match-text": "#A78BFA",
+    "search-match-bg": "#B08A3E",
+    "icon-default-stroke": "#B8BFD0"
+  },
+  "ui": {
+    "LineProfiler": {
+      "Line": {
+        "foreground": "gray-100"
+      },
+      "IgnoredLine": {
+        "foreground": "gray-80"
+      }
+    },
+    "NuGet": {
+      "section": {
+        "background": "gray-20"
+      }
+    },
+    "Recap": {
+      "cardBackground": "gray-20",
+      "chroniclesBackground": "gray-30",
+      "chroniclesBorderColor": "gray-30",
+      "chroniclesBackgroundHovered": "gray-40"
+    }
+  }
+}

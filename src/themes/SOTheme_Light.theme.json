@@ -1,0 +1,61 @@
+{
+  "name": "SOTheme Light",
+  "dark": false,
+  "author": "saffetoge",
+  "parentTheme": "Islands Light",
+  "editorScheme": "/themes/SOTheme_Light.xml",
+  "colors": {
+    "gray-160": "#F5F0E4",
+    "gray-150": "#EDE7DA",
+    "gray-140": "#E3DDD0",
+    "gray-130": "#D5CFC1",
+    "gray-120": "#C2BDB0",
+    "gray-110": "#A8A396",
+    "gray-100": "#858B96",
+    "gray-90": "#666E7D",
+    "gray-80": "#4E5666",
+    "gray-70": "#3F4654",
+    "gray-60": "#3A414E",
+    "gray-50": "#303642",
+    "gray-40": "#262B35",
+    "gray-30": "#1D212A",
+    "gray-20": "#15181E",
+    "gray-10": "#0D0F12",
+    "blue-160": "#F5F8FF",
+    "blue-150": "#EAF1FF",
+    "blue-140": "#DBE7FE",
+    "blue-130": "#C7D9FE",
+    "blue-120": "#A9C5FC",
+    "blue-110": "#8BB0FA",
+    "blue-100": "#6B97F7",
+    "blue-90": "#4B7FF1",
+    "blue-80": "#2563EB",
+    "blue-70": "#1D4FD0",
+    "blue-60": "#1E43A8",
+    "blue-50": "#1E3A8A",
+    "blue-40": "#1C3170",
+    "blue-30": "#172856",
+    "blue-20": "#132045",
+    "blue-10": "#0E1833",
+    "white": "#FCF9F2",
+    "transparent": "#FAF6EE00",
+    "editor-text": "#0D0F12",
+    "editor-bg": "#FAF6EE",
+    "editor-border-alt": "#E2DCCE",
+    "tool-window-bg": "#FAF6EE",
+    "tool-window-bg-alt": "#F4EFE4",
+    "main-window-bg-alt": "#EAE4D7",
+    "tab-selected-bg-active": "#E4EDFE",
+    "tab-selected-border-active": "#2563EB",
+    "tab-file-color-mask-bg": "#FAF6EE80",
+    "popup-completion-match-text": "#1D4ED8",
+    "search-match-bg": "#FDE7A6"
+  },
+  "ui": {
+    "NuGet": {
+      "section": {
+        "background": "gray-160"
+      }
+    }
+  }
+}
